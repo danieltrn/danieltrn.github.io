@@ -1,166 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Daniel Tran — Independent research in biology, oral health, and regenerative science.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daniel Tran — student science research portfolio.">
   <title>Daniel Tran | Research</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="#home">danieltrn<span>.</span></a>
-      <nav>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#journal">Journal</a>
-        <a href="#about">About</a>
-      </nav>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="name" href="#home">Daniel Tran</a>
+    <nav>
+      <a class="active" href="#home">Home</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="theme" aria-label="Toggle dark mode" onclick="document.body.classList.toggle('dark')">◐</button>
+  </div>
+</header>
+
+<main id="home" class="wrap">
+  <section class="intro">
+    <p class="kicker">INDEPENDENT SCIENCE RESEARCH</p>
+    <h1>Daniel Tran</h1>
+    <p class="lead">Student researcher exploring biology, oral health, and regenerative science through literature, scientific writing, and independent inquiry.</p>
+    <p class="meta">Kent, Washington · Research portfolio · 2026—present</p>
+  </section>
+
+  <div class="layout">
+    <aside class="years" aria-label="Research years">
+      <a href="#y2026">2026</a>
+      <a href="#y2027">2027</a>
+      <a href="#future">Future</a>
+    </aside>
+
+    <div class="content" id="research">
+      <section class="year" id="y2026">
+        <h2>2026</h2>
+
+        <article class="paper">
+          <div class="paper-image placeholder-image">
+            <div class="mini-diagram">
+              <span></span><span></span><span></span><i></i>
+            </div>
+          </div>
+          <div class="paper-body">
+            <div class="badges"><span>IN PROGRESS</span><span>ORAL BIOLOGY</span></div>
+            <h3>Enamel Remineralization</h3>
+            <p class="authors"><strong>Daniel Tran</strong></p>
+            <p class="venue">Independent Literature Review · 2026</p>
+            <p class="abstract">How does fluoride influence the balance between enamel demineralization and remineralization? This project examines enamel biology, mineral loss and repair, fluoride mechanisms, and the evidence surrounding modern remineralization strategies.</p>
+            <div class="links"><a href="#project-001">[Project]</a><a href="#sources">[Sources]</a><a href="#project-001">[Notes]</a></div>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-image placeholder-image second">
+            <div class="molecule"><b>Ca</b><b>P</b><b>F</b><b>OH</b></div>
+          </div>
+          <div class="paper-body">
+            <div class="badges"><span class="planned">PLANNED</span><span>REGENERATIVE SCIENCE</span></div>
+            <h3>Tooth Regeneration</h3>
+            <p class="authors"><strong>Daniel Tran</strong></p>
+            <p class="venue">Independent Research Project · Planned</p>
+            <p class="abstract">An investigation into dental stem cells, tooth development, enamel-producing cells, and the scientific challenges involved in regenerating an entire functional tooth.</p>
+            <div class="links"><a href="#future">[Project]</a></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="year" id="y2027">
+        <h2>2027</h2>
+        <article class="empty">
+          <span class="empty-dot"></span>
+          <div><h3>Future research</h3><p>New projects will be added as the research program develops.</p></div>
+        </article>
+      </section>
+
+      <section class="year" id="future">
+        <h2>Future</h2>
+        <div class="future-grid">
+          <div><strong>Research questions</strong><p>Document unanswered questions that emerge from the literature.</p></div>
+          <div><strong>Original research</strong><p>Potential experimental projects developed with appropriate mentorship and resources.</p></div>
+          <div><strong>Scientific communication</strong><p>Posters, figures, presentations, and accessible explanations of findings.</p></div>
+        </div>
+      </section>
     </div>
-  </header>
+  </div>
 
-  <main>
-    <section class="hero" id="home">
-      <p class="eyebrow">INDEPENDENT RESEARCH</p>
-      <h1>Exploring biology.<br><em>Understanding health.</em></h1>
-      <p class="hero-text">
-        A growing portfolio of independent research, scientific writing, and questions
-        in biology, oral health, and regenerative science.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="#research">View research</a>
-        <a class="button secondary" href="#about">About me</a>
-      </div>
-    </section>
+  <section class="full-section" id="publications">
+    <p class="kicker">PUBLICATIONS & WRITING</p>
+    <h2>Selected work</h2>
+    <div class="pub-list">
+      <div><span>2026</span><a href="#project-001">The Biology of Enamel Remineralization</a><em>Literature Review · In progress</em></div>
+      <div><span>—</span><a href="#future">Future publication</a><em>Research paper / review</em></div>
+    </div>
+  </section>
 
-    <section class="section" id="research">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">01 / RESEARCH</p>
-          <h2>Current work</h2>
-        </div>
-        <p class="section-intro">Projects developed through literature review, analysis, and scientific inquiry.</p>
+  <section class="full-section" id="project-001">
+    <p class="kicker">PROJECT 001</p>
+    <h2>Enamel Remineralization</h2>
+    <div class="project-grid">
+      <div>
+        <h4>Research question</h4>
+        <p>How does fluoride influence the balance between enamel demineralization and remineralization?</p>
       </div>
+      <div>
+        <h4>Status</h4>
+        <p>Literature review · September 2026</p>
+      </div>
+    </div>
+    <div class="project-sections">
+      <div><h4>Overview</h4><p>Replace this section with your research summary once your investigation develops.</p></div>
+      <div><h4>Key findings</h4><ul><li>Finding 01 — add evidence-backed result.</li><li>Finding 02 — add evidence-backed result.</li><li>Finding 03 — add evidence-backed result.</li></ul></div>
+      <div><h4>Limitations & uncertainty</h4><p>Document what the evidence does not establish and where studies disagree.</p></div>
+    </div>
+  </section>
 
-      <article class="research-card featured">
-        <div class="card-number">001</div>
-        <div class="card-content">
-          <span class="status">IN PROGRESS</span>
-          <h3>Enamel Remineralization</h3>
-          <p class="question">How does fluoride influence the balance between enamel demineralization and remineralization?</p>
-          <p class="muted">Oral Biology · Dental Science · Literature Review</p>
-          <a class="text-link" href="#project-001">Explore project <span>→</span></a>
-        </div>
-      </article>
+  <section class="full-section" id="sources">
+    <p class="kicker">RESEARCH PRACTICE</p>
+    <h2>Sources & methodology</h2>
+    <p class="wide">My research notes prioritize peer-reviewed literature and primary sources. Each major claim should be traceable to its source, while interpretation and uncertainty are clearly distinguished from established findings.</p>
+    <div class="method-grid">
+      <div><b>01</b><h4>Literature</h4><p>Reviews and primary research establish the scientific background.</p></div>
+      <div><b>02</b><h4>Evidence</h4><p>Methods, sample types, results, and limitations are recorded for each study.</p></div>
+      <div><b>03</b><h4>Synthesis</h4><p>Findings are compared across studies rather than treated as isolated facts.</p></div>
+    </div>
+  </section>
 
-      <div class="project-grid">
-        <article class="research-card placeholder">
-          <div class="card-number">002</div>
-          <div class="card-content">
-            <span class="status muted-status">PLANNED</span>
-            <h3>Future project</h3>
-            <p>A new research question will appear here.</p>
-          </div>
-        </article>
-        <article class="research-card placeholder">
-          <div class="card-number">003</div>
-          <div class="card-content">
-            <span class="status muted-status">PLANNED</span>
-            <h3>Future project</h3>
-            <p>Following the evidence wherever the questions lead.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+  <section class="full-section about" id="about">
+    <p class="kicker">ABOUT</p>
+    <h2>Curiosity, documented.</h2>
+    <p class="wide">I'm a student interested in biology, dentistry, and regenerative science. This portfolio is a public record of what I investigate, what I learn, and how my questions change as I engage more deeply with scientific literature.</p>
+  </section>
+</main>
 
-    <section class="section project-detail" id="project-001">
-      <p class="eyebrow">PROJECT 001</p>
-      <h2>Enamel Remineralization</h2>
-      <div class="detail-grid">
-        <div>
-          <h4>Research question</h4>
-          <p>How does fluoride influence the balance between enamel demineralization and remineralization?</p>
-        </div>
-        <div>
-          <h4>Status</h4>
-          <p>Literature review · September 2026</p>
-        </div>
-      </div>
-      <div class="note-box">
-        <strong>Project notes</strong>
-        <p>This space is ready for your research summary, findings, figures, methodology, limitations, and conclusions.</p>
-      </div>
-    </section>
-
-    <section class="section" id="publications">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">02 / PUBLICATIONS</p>
-          <h2>Selected writing</h2>
-        </div>
-      </div>
-      <div class="publication-list">
-        <article>
-          <span>2026</span>
-          <div>
-            <h3>The Biology of Enamel Remineralization</h3>
-            <p>Literature review · In progress</p>
-          </div>
-          <span class="arrow">↗</span>
-        </article>
-        <article>
-          <span>—</span>
-          <div>
-            <h3>Future publication</h3>
-            <p>A finished research paper will appear here.</p>
-          </div>
-          <span class="arrow">↗</span>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="journal">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">03 / RESEARCH JOURNAL</p>
-          <h2>Learning in public</h2>
-        </div>
-        <p class="section-intro">Short entries documenting questions, discoveries, and changes in direction.</p>
-      </div>
-      <div class="journal-list">
-        <article>
-          <time>SEP 15, 2026</time>
-          <div>
-            <h3>Beginning the research program</h3>
-            <p>Started exploring oral biology and regenerative dentistry. The first goal is to understand enamel, demineralization, and remineralization before narrowing the research question.</p>
-          </div>
-        </article>
-        <article class="empty-entry">
-          <time>NEXT ENTRY</time>
-          <div><p>Add your next research milestone here.</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <p class="eyebrow">04 / ABOUT</p>
-      <h2>Curiosity first.<br>Evidence always.</h2>
-      <p class="about-text">
-        I'm a student interested in biology, dentistry, and the science behind human health.
-        This site documents my independent learning and research as it develops over time.
-      </p>
-      <div class="principles">
-        <div><strong>01</strong><span>Use credible scientific literature.</span></div>
-        <div><strong>02</strong><span>Separate evidence from interpretation.</span></div>
-        <div><strong>03</strong><span>Document what remains uncertain.</span></div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <span>© 2026 Daniel Tran</span>
-    <span>Independent Research Portfolio</span>
-  </footer>
+<footer class="wrap">
+  <span>Daniel Tran</span><span>Independent Science Research · 2026</span>
+</footer>
+<script>
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => {
+  document.querySelectorAll('nav a').forEach(x => x.classList.remove('active'));
+  a.classList.add('active');
+}));
+</script>
 </body>
 </html>

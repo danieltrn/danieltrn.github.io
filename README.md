@@ -1,23 +1,18 @@
-# Daniel Tran — Research Portfolio
+# Daniel Tran — Science Research Portfolio
 
-This is a static GitHub Pages research portfolio.
+Static GitHub Pages site modeled as a professional student/scientist publication portfolio.
 
 ## Files
-- `index.html` — page content
-- `style.css` — design and responsive styling
+- index.html
+- style.css
 
-## Updating the site
-1. Edit `index.html`.
-2. Commit the changes to your GitHub repository.
-3. GitHub Pages will publish the updated site.
+## How to publish
+Replace the files in your `danieltrn.github.io` repository with these files, commit, and push. In GitHub: Settings → Pages → deploy from the main branch if Pages is not already enabled.
 
-## Research workflow
-Use the site to publish:
-- Research questions
-- Literature reviews
-- Findings and figures
-- Research journal milestones
-- Finished papers/presentations
-- Sources and links to original papers
+## Where to add research
+- Add each major project as a `.paper` article under its year.
+- Replace placeholder project sections with your actual research.
+- Add source links and citations to each project.
+- Use the research journal section later if you want a chronological record of your work.
 
-Keep claims sourced and distinguish established evidence from interpretation.
+Do not claim results you have not established. Clearly distinguish literature findings, your interpretation, and future hypotheses.
